@@ -1,0 +1,30 @@
+@import "../../../data/styles.css";
+
+.all-lens-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	justify-content: center;
+}
+
+.all-lens-project {
+	width: calc(100% / 4);
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+	width: 248px;
+	height: 308px;
+}
+
+.all-lens-project img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+@media (max-width: 600px) {
+	.all-lens-project {
+		width: calc(100% / 2);
+	}
+}
