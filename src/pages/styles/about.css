@@ -81,6 +81,16 @@
 	text-align: center;
 }
 
+.section-description {
+	color: var(--primary-color);
+	font-family: var(--secondary-font);
+	font-size: 16px;
+	line-height: 28px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
 @media (max-width: 1024px) {
 	.about-logo {
 		z-index: 100;

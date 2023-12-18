@@ -7,6 +7,7 @@ import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import AllSkills from "../components/about/allSkills";
 import AllWorks from "../components/about/allWorks";
+import AllPictures from "../components/about/allPictures";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -80,6 +81,15 @@ const About = () => {
 					<div className="about-info page-footer">
 						<div className="section-title">⎯ Work Experience ⎯</div>
 						<AllWorks />
+					</div>
+					<div className="homepage-projects page-footer">
+						<div className="section-title">
+							⎯ Meet Me Beyond The Desk ⎯
+						</div>
+						<div className="section-description">
+							{INFO.pictures.description}
+							<AllPictures />
+						</div>
 					</div>
 
 					<div className="page-footer">

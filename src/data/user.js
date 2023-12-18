@@ -197,6 +197,56 @@ const INFO = {
 			],
 		},
 	],
+	pictures: {
+		description:
+			"In my spare time, I indulge in my passions for traveling and photography, savor the joys of cooking and baking, and embrace the rewarding experience of pet-sitting :)",
+		albums: [
+			{
+				title: "Passports Stamps and Stories",
+				description:
+					"Every destination stamps both on my passport and my design perspectives. Immersing in diverse cultures expands my horizons and fueling my creative vision.",
+				photos: [
+					"../media/album_1_1.png",
+					"../media/album_1_2.png",
+					"../media/album_1_3.png",
+					"../media/album_1_4.png",
+				],
+			},
+			{
+				title: "Bites and Bakes",
+				description:
+					"The kitchen is my playground where I whip up happiness. Cooking and baking are more than just hobbies—they’re avenues to channel my creativity and craft delightful creations.",
+				photos: [
+					"../media/album_2_1.png",
+					"../media/album_2_2.png",
+					"../media/album_2_3.png",
+					"../media/album_2_4.png",
+				],
+			},
+			{
+				title: "Paws and Purrs",
+				description:
+					"It’s Paw-ty time! As a pet-sitter on Rover.com, I met and cared for many little furballs in Apex, NC and Mountain View, CA. Great to spend purr-fect time with my furry friends!",
+				photos: [
+					"../media/album_3_1.png",
+					"../media/album_3_2.png",
+					"../media/album_3_3.png",
+					"../media/album_3_4.png",
+				],
+			},
+			{
+				title: "Visions Through My Lens",
+				description:
+					"I love exploring the extraordinary in the ordinary. With my lens, I capture the hidden beauty in the city that narrates a story.",
+				photos: [
+					"../media/album_4_1.png",
+					"../media/album_4_2.png",
+					"../media/album_4_3.png",
+					"../media/album_4_4.png",
+				],
+			},
+		],
+	},
 };
 
 export default INFO;
