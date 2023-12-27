@@ -86,8 +86,10 @@ const About = () => {
 						<div className="section-title">
 							⎯ Meet Me Beyond The Desk ⎯
 						</div>
-						<div className="section-description">
-							{INFO.pictures.description}
+						<div className="section-description-about">
+							<div className="inner-section-description-about">
+								{INFO.pictures.description}
+							</div>
 							<AllPictures />
 						</div>
 					</div>

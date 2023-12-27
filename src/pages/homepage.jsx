@@ -178,8 +178,8 @@ const Homepage = () => {
 						<div className="homepage-projects page-footer page-footer">
 							<div className="section-title">
 								⎯ Design Snippets ⎯
-								<AllSnippets />
 							</div>
+							<AllSnippets />
 						</div>
 
 						<div className="homepage-projects page-footer">
