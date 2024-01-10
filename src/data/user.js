@@ -65,19 +65,35 @@ const INFO = {
 	],
 	snippets: [
 		{
+			title: "Prototyping: Music Player",
+			description:
+				"An innovative music player, integrating dynamic features to enhance user engagement and bring a touch of retro charm to the digital music experience.",
+			logo: "../media/music_player.gif",
+		},
+		{
+			title: "Animation: Preschool Websiter",
+			description:
+				"The design integrates captivating animations to engage visitors. The playful rocket symbolizes the creative experiences the preschool fosters in children.",
+			logo: "../media/preschool_web.gif",
+		},
+		{
+			title: "Animation: Weather Report",
+			description:
+				"A playful weather report tailored for children, illustrating the day's weather changes. An eye-catching, walking zebra was added to captivate the kids' attention.",
+			logo: "../media/weather_report.gif",
+		},
+		{
 			title: "Graphic Design: Halloween Poster",
 			description:
 				"Designed with a mischievous illustration style, the poster features spooky blanket dogs and doggy pumpkins, adding a playful twist.",
 			logo: "../media/graphic-design.png",
 		},
-
 		{
 			title: "Layout Design: Halloween Dog Parade",
 			description:
 				"Designed with a minimalist style to stand out in the vibrant jungle of NYC. The simple layout aims to effectively convey important information with a touch of elegance.",
 			logo: "../media/layout-design.png",
 		},
-
 		{
 			title: "UI/UX Design: Work n Coffee ",
 			description:
