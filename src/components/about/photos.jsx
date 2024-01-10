@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ImgsViewer from "react-images-viewer";
-import INFO from "../../data/user";
-import "./styles/lens.css";
+import "./styles/photos.css";
 
-const AllLens = () => {
+const Photos = (props) => {
+	const { photos } = props;
 	const [imageIndex, setImageIndex] = useState(0);
 	const [isImgOpen, setIsImgOpen] = useState(false);
 
@@ -16,21 +16,21 @@ const AllLens = () => {
 	};
 
 	return (
-		<div className="all-lens-container">
-			{INFO.lens.photos.map((len, index) => (
+		<div className="photos-container">
+			{photos.map((photo, index) => (
 				<div
-					className="all-lens-project"
 					key={index}
+					className="photo"
 					onClick={() => {
 						setIsImgOpen(true);
 						setImageIndex(index);
 					}}
 				>
-					<img src={len} alt="len" />
+					<img src={photo} alt="len" />
 				</div>
 			))}
 			<ImgsViewer
-				imgs={formatPhotos(INFO.lens.photos)}
+				imgs={formatPhotos(photos)}
 				currImg={imageIndex}
 				isOpen={isImgOpen}
 				onClose={() => setIsImgOpen(false)}
@@ -42,4 +42,4 @@ const AllLens = () => {
 	);
 };
 
-export default AllLens;
+export default Photos;

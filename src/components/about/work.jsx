@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./styles/work.css";
 
-const work = (props) => {
+const Work = (props) => {
 	const { logo, company, positions, descriptions } = props;
 
 	return (
@@ -41,4 +41,4 @@ const work = (props) => {
 	);
 };
 
-export default work;
+export default Work;

@@ -22,6 +22,7 @@
 	flex: 1.06;
 	width: 509px;
 	height: 352px;
+	cursor: pointer;
 }
 
 .project-logo img {

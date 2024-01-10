@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import ImgsViewer from "react-images-viewer";
 import { Link } from "react-router-dom";
 
 import "./styles/project.css";
@@ -6,12 +7,24 @@ import "./styles/project.css";
 const Project = (props) => {
 	const { logo, title, description, linkText, link, period, tags, isOpen } =
 		props;
+	const [isImgOpen, setIsImgOpen] = useState(false);
 
 	return (
 		<React.Fragment>
 			<div className="project">
-				<div className="project-logo">
+				<div
+					className="project-logo"
+					onClick={() => setIsImgOpen(true)}
+				>
 					<img src={logo} alt="logo" />
+					<ImgsViewer
+						imgs={[{ src: logo }]}
+						currImg={0}
+						isOpen={isImgOpen}
+						onClose={() => setIsImgOpen(false)}
+						backdropCloseable={true}
+						showImgCount={false}
+					/>
 				</div>
 				<div className="project-container">
 					<div className="project-tags-container">

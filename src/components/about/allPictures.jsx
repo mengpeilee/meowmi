@@ -1,4 +1,5 @@
 import React from "react";
+import Photos from "./photos";
 import INFO from "../../data/user";
 import "./styles/allPictures.css";
 
@@ -10,11 +11,7 @@ const AllPictures = () => {
 					<div className="album-title">{album.title}</div>
 					<div className="album-description">{album.description}</div>
 					<div className="pictures-container">
-						{album.photos.map((photo, index) => (
-							<div className="all-pictures-project" key={index}>
-								<img src={photo} alt="len" />
-							</div>
-						))}
+						<Photos photos={album.photos} />
 					</div>
 				</div>
 			))}
