@@ -49,7 +49,7 @@ const INFO = {
 			logo: "../media/iHungryBear.png",
 			linkText: "View Project",
 			isOpen: true,
-			link: "https://drive.google.com/file/d/16D_i0sOCwKjgoGDCbgc9O-QBoSPIvdxd/view",
+			link: "/projects/iHungryBear",
 		},
 		{
 			title: "SU MEE Brand Design",
