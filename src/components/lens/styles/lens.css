@@ -32,3 +32,9 @@
 		width: calc(100% / 2);
 	}
 }
+
+@media (max-width: 400px) {
+	.all-lens-project {
+		width: calc(100%);
+	}
+}

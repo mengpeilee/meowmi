@@ -31,3 +31,9 @@
 		width: calc(100% / 2);
 	}
 }
+
+@media (max-width: 400px) {
+	.projects-project {
+		width: calc(100%);
+	}
+}

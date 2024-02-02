@@ -35,3 +35,9 @@
 		width: calc(100% / 2);
 	}
 }
+
+@media (max-width: 400px) {
+	.photo {
+		width: calc(100%);
+	}
+}

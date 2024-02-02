@@ -15,6 +15,7 @@
 	max-width: 324px;
 	height: 216px;
 	cursor: pointer;
+	margin: auto;
 }
 
 .snippet-logo img {

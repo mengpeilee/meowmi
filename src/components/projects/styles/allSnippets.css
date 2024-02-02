@@ -20,3 +20,9 @@
 		width: calc(100% / 2);
 	}
 }
+
+@media (max-width: 400px) {
+	.all-snippets-project {
+		width: calc(100%);
+	}
+}
