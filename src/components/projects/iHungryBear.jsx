@@ -36,7 +36,10 @@ const IHungeryBear = () => {
 					<Logo width={46} />
 				</div>
 			</div>
-			<div className="project-background">
+			<div
+				className="project-background"
+				style={{ width: "100%", height: "500px" }}
+			>
 				<img src={"../iHungryBear/background.png"} alt="logo" />
 			</div>
 			<div className="content-wrapper">
@@ -733,7 +736,7 @@ const IHungeryBear = () => {
 								</div>
 							</div>
 						</div>
-						<div className="section-title">⎯ Design ⎯</div>
+						<div className="section-title">⎯ Prototype ⎯</div>
 						<div className="bear-design-container">
 							<div className="bear-design-text">
 								<div

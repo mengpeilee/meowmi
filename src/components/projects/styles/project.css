@@ -100,3 +100,10 @@
 		height: 500px;
 	}
 }
+
+@media (max-width: 400px) {
+	.project {
+		flex-direction: column;
+		height: 100%;
+	}
+}

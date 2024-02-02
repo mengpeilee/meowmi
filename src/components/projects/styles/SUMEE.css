@@ -13,12 +13,16 @@
 .all-sumee-images {
 	display: flex;
 	flex-direction: column;
-	max-width: 300px;
-	min-height: 100%;
+	height: 100%;
 	box-sizing: border-box;
 	padding: 5px;
 	margin: 5px;
 	overflow: hidden;
+}
+
+.all-sumee-images img {
+	width: 100%;
+	height: 300px;
 }
 
 .sumee-image-title {

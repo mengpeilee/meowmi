@@ -15,7 +15,10 @@ const SUMEE = () => {
 					<Logo width={46} />
 				</div>
 			</div>
-			<div className="project-background">
+			<div
+				className="project-background"
+				style={{ width: "100%", height: "500px" }}
+			>
 				<img src={"../SUMEE/background.png"} alt="logo" />
 			</div>
 			<div className="content-wrapper">
@@ -29,7 +32,10 @@ const SUMEE = () => {
 						<div className="project-background">
 							<img src={"../SUMEE/SUMEE-logo.png"} alt="logo" />
 						</div>
-						<div className="section-text">
+						<div
+							className="section-text"
+							style={{ textAlign: "center" }}
+						>
 							SU MEE is a creative Taiwanese beef noodle brand.
 							The Chinese brand name 簌麵, translated into English
 							as "Slurping Noodle," mimics the onomatopoeic sound
@@ -48,7 +54,10 @@ const SUMEE = () => {
 						<div className="project-background">
 							<img src={"../SUMEE/SU-MEE.png"} alt="logo" />
 						</div>
-						<div className="section-text">
+						<div
+							className="section-text"
+							style={{ textAlign: "center" }}
+						>
 							For SU MEE's brand identity, I designed the noodle
 							takeout packaging boxes and paper bags, as well as
 							the staff uniforms, to strengthen the brand's
@@ -86,7 +95,10 @@ const SUMEE = () => {
 					<div className="section-title">
 						⎯ Self-Ordering UI Design ⎯
 					</div>
-					<div className="section-text">
+					<div
+						className="section-text"
+						style={{ textAlign: "center" }}
+					>
 						For noodle ordering, I designed a self-ordering iPad UI
 						that will be implemented on iPads placed at each dining
 						table, allowing customers to conveniently place their
