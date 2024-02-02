@@ -558,6 +558,8 @@ const IHungeryBear = () => {
 							/>
 						</div>
 						<div className="section-subtitle">POV Statement</div>
+						<br />
+						<br />
 						<div
 							className="project-background"
 							onClick={() => setIsPOVImgOpen(true)}
@@ -1153,6 +1155,8 @@ const IHungeryBear = () => {
 							</div>
 						</div>
 						<div className="section-title">⎯ Components ⎯</div>
+						<br />
+						<br />
 						<div className="project-background">
 							<img
 								src={"../iHungryBear/components.png"}
@@ -1160,6 +1164,8 @@ const IHungeryBear = () => {
 							/>
 						</div>
 						<div className="section-title">⎯ Visual Design ⎯</div>
+						<br />
+						<br />
 						<div className="project-background">
 							<img
 								src={"../iHungryBear/visual-design.png"}

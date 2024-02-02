@@ -55,9 +55,9 @@ const INFO = {
 			title: "SU MEE Brand Design",
 			description:
 				"Branding for SU MEE, a Taiwanese authentic noodle shop.",
-			period: "2022",
+			period: "Jan 2021 - Apr 2021",
 			tags: ["UI Design", "Brand Identity"],
-			logo: "../media/SU-MEE.png",
+			logo: "../SUMEE/SU-MEE.png",
 			linkText: "View Project",
 			isOpen: true,
 			link: "/projects/SUMEE",

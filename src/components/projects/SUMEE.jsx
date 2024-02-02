@@ -104,6 +104,8 @@ const SUMEE = () => {
 						<img src={"../SUMEE/self-ordering.png"} alt="logo" />
 					</div>
 					<div className="section-title">⎯ Components ⎯</div>
+					<br />
+					<br />
 					<div className="project-background">
 						<img src={"../SUMEE/components.png"} alt="logo" />
 					</div>
