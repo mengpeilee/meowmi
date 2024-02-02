@@ -58,9 +58,9 @@ const INFO = {
 			period: "2022",
 			tags: ["UI Design", "Brand Identity"],
 			logo: "../media/SU-MEE.png",
-			linkText: "Coming Soon",
-			isOpen: false,
-			link: "https://github.com",
+			linkText: "View Project",
+			isOpen: true,
+			link: "/projects/SUMEE",
 		},
 	],
 	snippets: [

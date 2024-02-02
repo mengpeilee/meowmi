@@ -1,0 +1,33 @@
+@import "../../../data/styles.css";
+
+.all-sumee-snippets-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	align-items: stretch;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.all-sumee-images {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	min-height: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 5px;
+	overflow: hidden;
+}
+
+.sumee-image-title {
+	padding-top: 10px;
+	color: #999999;
+	font-family: "Heebo-Regular", Helvetica;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.41px;
+	line-height: 18px;
+	text-align: center;
+}

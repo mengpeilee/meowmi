@@ -29,7 +29,7 @@ const IHungeryBear = () => {
 	const [isPrototype3ImgOpen, setIsPrototype3ImgOpen] = useState(false);
 
 	return (
-		<div>
+		<>
 			<NavBar active="projects" />
 			<div className="projects-logo-container">
 				<div className="projects-logo">
@@ -1172,7 +1172,7 @@ const IHungeryBear = () => {
 					<Footer />
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 

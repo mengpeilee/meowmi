@@ -10,6 +10,7 @@ import Projects from "./pages/projects";
 // import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 import IHungryBear from "./components/projects/iHungryBear";
+import SUMEE from "./components/projects/SUMEE";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
@@ -28,6 +29,7 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/projects/iHungryBear" element={<IHungryBear />} />
+				<Route path="/projects/SUMEE" element={<SUMEE />} />
 				{/* <Route path="/articles" element={<Articles />} />
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} /> */}
