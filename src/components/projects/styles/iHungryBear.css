@@ -176,6 +176,17 @@
 	border-radius: 30px;
 }
 
+.all-bear-images {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	min-height: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 5px;
+	overflow: hidden;
+}
+
 .bear-icon-process-logo {
 	width: 50px;
 	height: 50px;
@@ -270,6 +281,24 @@
 	line-height: 150%;
 }
 
+.bear-design-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.bear-design-container-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.bear-design-text {
+	padding: 40px;
+}
+
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;
@@ -302,6 +331,14 @@
 	}
 
 	.insight-row {
+		flex-direction: column;
+	}
+
+	.bear-design-container {
+		flex-direction: column;
+	}
+
+	.bear-design-container-reverse {
 		flex-direction: column;
 	}
 }

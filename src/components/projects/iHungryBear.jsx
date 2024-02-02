@@ -18,10 +18,15 @@ const IHungeryBear = () => {
 	const [isUserJourneyMapImgOpen, setIsUserJourneyMapImgOpen] =
 		useState(false);
 	const [isPOVImgOpen, setIsPOVImgOpen] = useState(false);
-	const [isHMWImgOpen, setIsHMWImgOpen] = useState(false);
 	const [isIdeationImgOpen, setIsIdeationImgOpen] = useState(false);
 	const [isUserFlowImgOpen, setIsUserFlowImgOpen] = useState(false);
 	const [isOtherUserFlowImgOpen, setIsOtherUserFlowImgOpen] = useState(false);
+	const [isFeature1ImgOpen, setIsFeature1ImgOpen] = useState(false);
+	const [isPrototype1ImgOpen, setIsPrototype1ImgOpen] = useState(false);
+	const [isFeature2ImgOpen, setIsFeature2ImgOpen] = useState(false);
+	const [isPrototype2ImgOpen, setIsPrototype2ImgOpen] = useState(false);
+	const [isFeature3ImgOpen, setIsFeature3ImgOpen] = useState(false);
+	const [isPrototype3ImgOpen, setIsPrototype3ImgOpen] = useState(false);
 
 	return (
 		<div>
@@ -94,7 +99,9 @@ const IHungeryBear = () => {
 								<div className="bear-snippet">
 									<div className="bear-icon-logo">
 										<img
-											src={"../iHungryBear/bulb-icon.png"}
+											src={
+												"../iHungryBear/group-icon.png"
+											}
 											alt="logo"
 										/>
 									</div>
@@ -571,27 +578,25 @@ const IHungeryBear = () => {
 							/>
 						</div>
 						<div className="section-subtitle">How Might We</div>
-						<div
-							className="project-background"
-							onClick={() => setIsHMWImgOpen(true)}
-							style={{ cursor: "pointer" }}
-						>
-							<img
-								src={"../iHungryBear/how-might-we.png"}
-								alt="logo"
-							/>
-							<ImgsViewer
-								imgs={[
-									{
-										src: "../iHungryBear/how-might-we.png",
-									},
-								]}
-								currImg={0}
-								isOpen={isHMWImgOpen}
-								onClose={() => setIsHMWImgOpen(false)}
-								backdropCloseable={true}
-								showImgCount={false}
-							/>
+						<div className="all-bear-snippets-container">
+							<div className="all-bear-images">
+								<img
+									src={"../iHungryBear/HMW1.png"}
+									alt="logo"
+								/>
+							</div>
+							<div className="all-bear-images">
+								<img
+									src={"../iHungryBear/HMW1.png"}
+									alt="logo"
+								/>
+							</div>
+							<div className="all-bear-images">
+								<img
+									src={"../iHungryBear/HMW1.png"}
+									alt="logo"
+								/>
+							</div>
 						</div>
 						<div className="section-title">⎯ Ideate ⎯</div>
 						<div className="section-subtitle">iHungryBear 2.0</div>
@@ -725,6 +730,441 @@ const IHungeryBear = () => {
 									/>
 								</div>
 							</div>
+						</div>
+						<div className="section-title">⎯ Design ⎯</div>
+						<div className="bear-design-container">
+							<div className="bear-design-text">
+								<div
+									className="section-subtitle"
+									style={{ textAlign: "left" }}
+								>
+									New Feature 1 - Honor Badges & Hall of Fame
+								</div>
+								<br />
+								<div className="bear-image-title">Goal</div>
+								<div className="section-text">
+									• Boost user engagement
+									<br />
+									• Enhance entertainment value
+									<br />• Provide users with a sense of
+									achievement
+								</div>
+								<div className="bear-image-title">Feature</div>
+								<div className="section-text">
+									Users are encouraged to complete tasks
+									within the app, such as daily logins or
+									leaving restaurant reviews, to earn points.
+									These points can be used to unlock various
+									Bear Honor Badges.
+									<br />
+									<br />
+									The Hall of Fame allows users to engage in
+									friendly competition, showcasing those who
+									have earned the most points
+								</div>
+							</div>
+							<div className="bear-images">
+								<div
+									className="bear-image"
+									onClick={() => setIsFeature1ImgOpen(true)}
+								>
+									<img
+										src={"../iHungryBear/feature-1.png"}
+										alt="logo"
+									/>
+									<ImgsViewer
+										imgs={[
+											{
+												src: "../iHungryBear/feature-1.png",
+											},
+										]}
+										currImg={0}
+										isOpen={isFeature1ImgOpen}
+										onClose={() =>
+											setIsFeature1ImgOpen(false)
+										}
+										backdropCloseable={true}
+										showImgCount={false}
+									/>
+								</div>
+								<div
+									className="bear-image"
+									onClick={() => setIsPrototype1ImgOpen(true)}
+								>
+									<img
+										src={
+											"../iHungryBear/Prototype1_gif.gif"
+										}
+										alt="logo"
+									/>
+									<ImgsViewer
+										imgs={[
+											{
+												src: "../iHungryBear/Prototype1_gif.gif",
+											},
+										]}
+										currImg={0}
+										isOpen={isPrototype1ImgOpen}
+										onClose={() =>
+											setIsPrototype1ImgOpen(false)
+										}
+										backdropCloseable={true}
+										showImgCount={false}
+									/>
+								</div>
+							</div>
+						</div>
+						<div className="bear-design-container-reverse">
+							<div className="bear-design-text">
+								<div
+									className="section-subtitle"
+									style={{ textAlign: "left" }}
+								>
+									New Feature 2 - Community Forum
+								</div>
+								<br />
+								<div className="bear-image-title">Goal</div>
+								<div className="section-text">
+									• Encourage user interaction and engagement
+									<br />
+									• Enhance User-Generated Content (UGC)
+									<br />• Foster user loyalty and community
+									spirit
+								</div>
+								<div className="bear-image-title">Feature</div>
+								<div className="section-text">
+									The Community Forum allows users to create
+									posts and initiate polls, fostering a space
+									for interaction.
+									<br />
+									<br />
+									This feature enables users to seek opinions
+									and connect with the community.
+								</div>
+							</div>
+							<div className="bear-images">
+								<div
+									className="bear-image"
+									onClick={() => setIsFeature2ImgOpen(true)}
+								>
+									<img
+										src={"../iHungryBear/feature-2.png"}
+										alt="logo"
+									/>
+									<ImgsViewer
+										imgs={[
+											{
+												src: "../iHungryBear/feature-2.png",
+											},
+										]}
+										currImg={0}
+										isOpen={isFeature2ImgOpen}
+										onClose={() =>
+											setIsFeature2ImgOpen(false)
+										}
+										backdropCloseable={true}
+										showImgCount={false}
+									/>
+								</div>
+								<div
+									className="bear-image"
+									onClick={() => setIsPrototype2ImgOpen(true)}
+								>
+									<img
+										src={
+											"../iHungryBear/Prototype2_gif.gif"
+										}
+										alt="logo"
+									/>
+									<ImgsViewer
+										imgs={[
+											{
+												src: "../iHungryBear/Prototype2_gif.gif",
+											},
+										]}
+										currImg={0}
+										isOpen={isPrototype2ImgOpen}
+										onClose={() =>
+											setIsPrototype2ImgOpen(false)
+										}
+										backdropCloseable={true}
+										showImgCount={false}
+									/>
+								</div>
+							</div>
+						</div>
+						<div className="bear-design-container">
+							<div className="bear-design-text">
+								<div
+									className="section-subtitle"
+									style={{ textAlign: "left" }}
+								>
+									New Feature 3 - Life Status Selection
+								</div>
+								<br />
+								<div className="bear-image-title">Goal</div>
+								<div className="section-text">
+									• Reduce user choice overload
+									<br />
+									• Cate to users with consistent needs
+									<br />• Simplify the search process
+									<br />• Eliminate the need for repetitive
+									filtering
+								</div>
+								<div className="bear-image-title">Feature</div>
+								<div className="section-text">
+									By selecting a Life Status, users can narrow
+									down restaurant options that align with
+									their specific preferences.
+								</div>
+							</div>
+							<div className="bear-images">
+								<div
+									className="bear-image"
+									onClick={() => setIsFeature3ImgOpen(true)}
+								>
+									<img
+										src={"../iHungryBear/feature-3.png"}
+										alt="logo"
+									/>
+									<ImgsViewer
+										imgs={[
+											{
+												src: "../iHungryBear/feature-3.png",
+											},
+										]}
+										currImg={0}
+										isOpen={isFeature3ImgOpen}
+										onClose={() =>
+											setIsFeature3ImgOpen(false)
+										}
+										backdropCloseable={true}
+										showImgCount={false}
+									/>
+								</div>
+								<div
+									className="bear-image"
+									onClick={() => setIsPrototype3ImgOpen(true)}
+								>
+									<img
+										src={
+											"../iHungryBear/Prototype3_gif.gif"
+										}
+										alt="logo"
+									/>
+									<ImgsViewer
+										imgs={[
+											{
+												src: "../iHungryBear/Prototype1_gif.gif",
+											},
+										]}
+										currImg={0}
+										isOpen={isPrototype3ImgOpen}
+										onClose={() =>
+											setIsPrototype3ImgOpen(false)
+										}
+										backdropCloseable={true}
+										showImgCount={false}
+									/>
+								</div>
+							</div>
+						</div>
+						<div className="section-title">
+							⎯ Usability Testing ⎯
+						</div>
+						<div className="section-subtitle">Usability Test</div>
+						<div className="section-text">
+							We conducted usability tests with six participants
+							to evaluate the effectiveness of our solutions.
+							During these tests, each participant was given five
+							tasks to assess whether they could complete them
+							smoothly.
+						</div>
+						<div className="all-bear-snippets-container">
+							<div className="all-bear-process">
+								<div className="bear-snippet">
+									<div className="bear-icon-process-logo">
+										<img
+											src={
+												"../iHungryBear/study-icon.png"
+											}
+											alt="logo"
+										/>
+									</div>
+									<div className="bear-snippet-title">
+										Study
+									</div>
+									<div className="bear-snippet-description">
+										Moderated
+									</div>
+								</div>
+							</div>
+							<div className="all-bear-process">
+								<div className="bear-snippet">
+									<div className="bear-icon-process-logo">
+										<img
+											src={
+												"../iHungryBear/location-icon.png"
+											}
+											alt="logo"
+										/>
+									</div>
+									<div className="bear-snippet-title">
+										Location
+									</div>
+									<div className="bear-snippet-description">
+										Taiwan, Remote
+									</div>
+								</div>
+							</div>
+							<div className="all-bear-process">
+								<div className="bear-snippet">
+									<div className="bear-icon-process-logo">
+										<img
+											src={
+												"../iHungryBear/participants-icon.png"
+											}
+											alt="logo"
+										/>
+									</div>
+									<div className="bear-snippet-title">
+										Participants
+									</div>
+									<div className="bear-snippet-description">
+										6 users
+									</div>
+								</div>
+							</div>
+							<div className="all-bear-process">
+								<div className="bear-snippet">
+									<div className="bear-icon-process-logo">
+										<img
+											src={
+												"../iHungryBear/duration-icon.png"
+											}
+											alt="logo"
+										/>
+									</div>
+									<div className="bear-snippet-title">
+										Duration
+									</div>
+									<div className="bear-snippet-description">
+										30 minutes
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="section-subtitle">Feedback</div>
+						<div className="section-text">
+							Following the tests, users were asked to rate their
+							experience using the System Usability Scale (SUS)
+							and provide feedback on both the overall experience
+							and the design.
+						</div>
+						<div className="all-bear-snippets-container">
+							<div className="all-bear-images">
+								<img
+									src={"../iHungryBear/feedback-1.png"}
+									alt="logo"
+								/>
+							</div>
+							<div className="all-bear-images">
+								<img
+									src={"../iHungryBear/feedback-2.png"}
+									alt="logo"
+								/>
+							</div>
+							<div className="all-bear-images">
+								<img
+									src={"../iHungryBear/feedback-3.png"}
+									alt="logo"
+								/>
+							</div>
+							<div className="all-bear-images">
+								<img
+									src={"../iHungryBear/feedback-4.png"}
+									alt="logo"
+								/>
+							</div>
+						</div>
+						<div className="section-title">⎯ Outcomes ⎯</div>
+						<div className="all-bear-snippets-container">
+							<div className="all-bear-snippets">
+								<div className="bear-snippet">
+									<div className="bear-icon-logo">
+										<img
+											src={"../iHungryBear/bulb-icon.png"}
+											alt="logo"
+										/>
+									</div>
+									<div className="bear-snippet-title">
+										New Feature
+									</div>
+									<div className="bear-snippet-description">
+										We introduced several new social
+										features, including Community Forum,
+										Bear Honor Badge, and Life Status
+										Selection, to foster social interactions
+										and boost User-Generated Content (UGC).
+									</div>
+								</div>
+							</div>
+							<div className="all-bear-snippets">
+								<div className="bear-snippet">
+									<div className="bear-icon-logo">
+										<img
+											src={"../iHungryBear/face-icon.png"}
+											alt="logo"
+										/>
+									</div>
+									<div className="bear-snippet-title">
+										Improved Usability & Experience
+									</div>
+									<div className="bear-snippet-description">
+										Our efforts led to an enhancement in
+										user experience, evidenced by a{" "}
+										<span>35%</span> increase in user
+										satisfaction and a <span>27%</span>{" "}
+										improvement in System Usability Scale
+										(SUS) scores.
+									</div>
+								</div>
+							</div>
+							<div className="all-bear-snippets">
+								<div className="bear-snippet">
+									<div className="bear-icon-logo">
+										<img
+											src={
+												"../iHungryBear/group-icon.png"
+											}
+											alt="logo"
+										/>
+									</div>
+									<div className="bear-snippet-title">
+										Positive Feedback
+									</div>
+									<div className="bear-snippet-description">
+										Garnered positive feedback from target
+										users during the usability testing and
+										received overwhelmingly positive
+										responses from client.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="section-title">⎯ Components ⎯</div>
+						<div className="project-background">
+							<img
+								src={"../iHungryBear/components.png"}
+								alt="logo"
+							/>
+						</div>
+						<div className="section-title">⎯ Visual Design ⎯</div>
+						<div className="project-background">
+							<img
+								src={"../iHungryBear/visual-design.png"}
+								alt="logo"
+							/>
 						</div>
 					</div>
 				</div>
