@@ -4,7 +4,7 @@ const INFO = {
 		name: "Christine Chien",
 		email: "christinechien604@gmail.com",
 		logo: "../logo.png",
-		resume: "https://drive.google.com/file/d/1Ol_FqoWulnQLLssbGmfLZpWd_xACiBJl/view",
+		resume: "https://drive.google.com/file/d/1zPtXhuTSzK22YmQE00TEUGEgwV-NB9X-/view?usp=drive_link",
 	},
 
 	socials: {
