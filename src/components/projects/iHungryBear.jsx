@@ -974,6 +974,12 @@ const IHungeryBear = () => {
 								</div>
 							</div>
 						</div>
+						<div className="project-background">
+							<img
+								src={"../iHungryBear/usability-design.png"}
+								alt="logo"
+							/>
+						</div>
 						<div className="section-title">
 							⎯ Usability Testing ⎯
 						</div>
