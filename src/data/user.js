@@ -41,7 +41,7 @@ const INFO = {
 
 	projects: [
 		{
-			title: "USCIS Information Architecture Redesign",
+			title: "USCIS IA Redesign",
 			description:
 				"Enhanced the navigation experience of the USCIS website by redesigning its Information Architecture (IA).",
 			period: "Sep 2024 - Dec 2024",
