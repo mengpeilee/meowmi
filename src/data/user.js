@@ -41,6 +41,17 @@ const INFO = {
 
 	projects: [
 		{
+			title: "USCIS Information Architecture Redesign",
+			description:
+				"Enhanced the navigation experience of the USCIS website by redesigning its Information Architecture (IA).",
+			period: "Sep 2024 - Dec 2024",
+			tags: ["UX Design", "UX Research", "Information Architecture"],
+			logo: "../media/USCIS cover.png",
+			linkText: "View Project",
+			isOpen: true,
+			link: "https://drive.google.com/file/d/1WJaETF5Jhje3jPp_cmovaWB032yZGO4B/view",
+		},
+		{
 			title: "iHungryBear Redesign",
 			description:
 				"A restaurant-finding app connecting diners with local restaurants in Taiwan.",
