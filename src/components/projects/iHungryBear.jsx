@@ -592,13 +592,13 @@ const IHungeryBear = () => {
 							</div>
 							<div className="all-bear-images">
 								<img
-									src={"../iHungryBear/HMW1.png"}
+									src={"../iHungryBear/HMW2.png"}
 									alt="logo"
 								/>
 							</div>
 							<div className="all-bear-images">
 								<img
-									src={"../iHungryBear/HMW1.png"}
+									src={"../iHungryBear/HMW3.png"}
 									alt="logo"
 								/>
 							</div>
